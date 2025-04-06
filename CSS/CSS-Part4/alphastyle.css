@@ -1,0 +1,13 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0,0,0.6);
+}
+
+
+#second{
+    height: 200px;
+    width: 200px;
+    background-color: #0077ffff;
+    opacity: 1;
+}

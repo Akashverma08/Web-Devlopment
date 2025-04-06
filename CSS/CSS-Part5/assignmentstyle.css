@@ -1,0 +1,22 @@
+#container{
+    height: 400px;
+    width: 400px;
+    background-color: whitesmoke;
+    border: 4px solid rgb(63, 188, 213);
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: solid 4px black;
+    border-radius: 4px;
+    font-size: 50px;
+    background-color: grey;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}

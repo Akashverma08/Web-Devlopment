@@ -1,0 +1,19 @@
+h1{
+    border: solid 2px black;
+    width: 33.33%;
+}
+
+#first{
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    border: solid 2px black;
+}
+#inner{
+    height: 50%;
+    width: 50%;
+    margin: 33.33%;
+    background-color: red;
+    border: dashed 1px darkgreen;
+}

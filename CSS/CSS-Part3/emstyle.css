@@ -1,0 +1,31 @@
+#outer{
+    height: 400px;
+    width: 400px;
+    border: solid 2px black;
+    background-color: aqua;
+    font-size: 20px;
+}
+#inner{
+    height: 200px;
+    width: 200px;
+    background-color: lime;
+    font-size: 1.5em;
+    padding: 1em;
+
+}
+button{
+    height: 50px;
+    width: 100px;
+    background-color: lightblue;
+    border: 2px darkred solid;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+section{
+    font-size: 15px;
+}
+
+div{
+    font-size: 2em;
+}

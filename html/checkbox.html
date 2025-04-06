@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkbox</title>
+</head>
+<body>
+    <form action="action.php">
+        <input type="checkbox" name="age" id="age">
+        <label for="age">I am 18+</label>
+        
+    </form>
+    <form action="action.php">
+        <div>
+            <input type="radio" name="Gender" id="male" value="m">
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="Female" value="F">
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender" id="Other" value="O">
+            <label for="Male">Other</label>
+
+        </div>
+        <div>
+            Select Subjects:
+            <input type="checkbox" name="subjects" id="maths" value="ma">
+            <label for="maths">Maths</label>
+            <input type="checkbox" name="subjects" id="Science" value="Sci">
+            <label for="Science">Science</label>
+            <input type="checkbox" name="subjects" id="SST" value="SST">
+            <label for="SST">Social Science</label>
+        </div>
+        <div>
+            Choose Your Profession:
+            <select name="profession" id="profession">
+                <option>Select You option</option>
+                <option value="stu">Student</option>
+                <option value="dev">Developer</option>
+            </select>
+        </div>
+        <div>
+            
+            <label for="Volume">Select Your Volume:</label>
+            <input type="range" id="Volume" name="vol" min="0" max="100" step="10" value="50">
+        </div>
+        <div>
+            Please Give Your Feedback:
+            <label for="Feedback"></label>
+            <textarea name="Feedback" id="Feedback" cols="30" rows="10"></textarea>
+        </div>
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>
